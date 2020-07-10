@@ -1,9 +1,3 @@
 body {
-    background-color: burlywood;
-}
-
-
-object {
-    height: 100vh;
-    width: 100vh;
+    background: red;
 }
