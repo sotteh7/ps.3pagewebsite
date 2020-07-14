@@ -1,0 +1,9 @@
+body {
+    background: #faeae2;
+    margin: 20px;
+}
+:last-child> a > img {
+    border: 3px solid #980b36;
+    width: 250px;
+    height: 300px;
+}

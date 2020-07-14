@@ -8,20 +8,20 @@ div.gallery {
     float: left;
     width: 250px;
     height: 300px;
-  }
+}
   
-  div.gallery:hover {
+div.gallery:hover {
     border: 6px solid  #980b36;
-  }
+}
   
-  div.gallery img {
+div.gallery img {
     width: 100%;
     height: 125px;
-  }
+}
   
-  div.desc {
+div.desc {
     padding: 15px;
     text-align: center;
-  }
+}
 
-  img {}
+
