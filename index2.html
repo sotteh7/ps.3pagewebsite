@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
+  <head>
+
+      <link type="text/css" rel="stylesheet" href="css/style.css"/>
       <div>
         <title>The Store</title>
-            <h1>The Coffee Shopping</h1>
+     
+  </head>
+
+    <body>
+
+      <h1>The Coffee Shopping</h1>
             <h3>We take $2 from every order and donate it to a charity of our choice</h3>
-            <h6>established 2020</h6>
-            <h3><a href=index.html">Previous Page</a></h3>
         
                 <table>
                     <tr>
@@ -47,28 +52,43 @@
                       <td></td>
                       <td></td>
                     </tr>
-</head>
-
-    <body>
-
-            <form action="/my-handling-form-page" method="post">
-                <div>
-                  <label for="name">Name:</label>
-                  <input type="text" id="name" name="user_name">
-                </div>
-                <div>
-                  <label for="mail">E-mail:</label>
-                  <input type="email" id="mail" name="user_mail">
-                </div>
-                <div>
-                  <label for="msg">Message:</label>
-                  <textarea id="msg" name="user_message"></textarea>
-                </div>
-                <div class="button">
-                        <button type="submit">Send</button>
+                  </table>
+                    <form>
+                      <fieldset class="Billing/Shipping-info">
+                        <label>
+                          Full Name
+                          <input type="text" name="Full Name">
+                        </label>
+                        <label>
+                          Mailing/Billing Address
+                          <input type="text" name="Billing/Shipping Address">
+                        </label>
+                        <label>
+                          Phone number
+                          <input type="text" name="Phone number">
+                        </label>
+                        <label>
+                          Card Info
+                          <input type="Address" name="password">
+                        </label>
+                        <label>
+                          Type
+                          <input type="text" name="Coffe Type">
+                        </label>
+                        <label>
+                          Quantity
+                          <input type="text" name="Quantity">
+                        </label>
+                      </fieldset>
                       </div>
-              </form>
-
+                      <fieldset class="account-action">
+                        <input class="btn" type="submit" name="submit" value="Checkout">
+                        <label>
+                          <input type="checkbox" name="remember"> $2 Donation
+                        </label>
+                      </fieldset>
+                    </form>    
+         
     </body>
 
 </html>
