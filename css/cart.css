@@ -1,8 +1,9 @@
 body {
     background: #faeae2;
+    margin: 20px;
+
 }
 
-*,
 *:before,
 *:after {
    box-sizing: border-box;
@@ -47,7 +48,7 @@ input {
   width: 100%;
 }
 .account-action {
-  background: #f0f0f2;
+  background: #faeae2;
   border-top: 1px solid #faeae2;
   padding: 5px;
 }
@@ -59,10 +60,11 @@ input {
   font-weight: bold;
   float: left;
   padding: 8px 16px;
+  margin: 0px;
 }
 .account-action label {
   color: #3c4909;
   font-size: 12px;
   float: left;
-  margin: 10px 0 0 20px;
+  margin: 2px 0 0 6px;
 }
